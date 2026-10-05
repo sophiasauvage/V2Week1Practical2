@@ -44,9 +44,16 @@ strokeWeight(2)
    fill(208, 116, 0)
     rect(375, 375, 65, 45, 10)
     fill(253, 191, 7)
-    
     rect(375, 375, 45, 25, 10)
+    stroke(0)
+    strokeWeight(3)
+    fill(0)
+    triangle(375, 385, 385, 370, 390, 385,)
+    triangle(365, 385, 375, 375, 380, 385,)
+    
 //HOOD 
+stroke(0)
+strokeWeight(2)
     fill(150)
     ellipse(375, 300, 110, 50)
     fill(60)
@@ -89,8 +96,6 @@ strokeWeight(2)
 //MOUTH
     fill(217, 144, 135)
     rect(375, 285, 20, 10, 40, 40, 40, 40)
-
-    
 
 
 }
